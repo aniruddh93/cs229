@@ -1,0 +1,11 @@
+name: tfcs229
+channels:
+  - defaults
+dependencies:
+  - matplotlib
+  - numpy
+  - pip=21.0.1
+  - python=3.9
+  - scipy
+  - pillow
+  - tensorflow
