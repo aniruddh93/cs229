@@ -7,10 +7,16 @@ import tensorflow as tf
 
 import fc_nn
 
-train_pos_path = "/Users/aniruddhr/Documents/cs229/project/aclImdb/train/pos"
-train_neg_path = "/Users/aniruddhr/Documents/cs229/project/aclImdb/train/neg"
-test_pos_path = "/Users/aniruddhr/Documents/cs229/project/aclImdb/test/pos"
-test_neg_path = "/Users/aniruddhr/Documents/cs229/project/aclImdb/test/neg"
+#train_pos_path = "/Users/aniruddhr/Documents/cs229/project/aclImdb/train/pos"
+#train_neg_path = "/Users/aniruddhr/Documents/cs229/project/aclImdb/train/neg"
+#test_pos_path = "/Users/aniruddhr/Documents/cs229/project/aclImdb/test/pos"
+#test_neg_path = "/Users/aniruddhr/Documents/cs229/project/aclImdb/test/neg"
+
+train_pos_path = "/home/aniruddh_ramrakhyani/my_proj/cs229/aclImdb/train/pos"
+train_neg_path = "/home/aniruddh_ramrakhyani/my_proj/cs229/aclImdb/train/neg"
+test_pos_path = "/home/aniruddh_ramrakhyani/my_proj/cs229/aclImdb/test/pos"
+test_neg_path = "/home/aniruddh_ramrakhyani/my_proj/cs229/aclImdb/test/neg"
+
 
 
 def GetWords(lines):
