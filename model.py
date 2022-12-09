@@ -413,8 +413,14 @@ def GetMetrics(predictions_raw, Y, prefix):
         
 
 def main():
-    vocab_path = "/Users/aniruddhr/Documents/cs229/project/aclImdb/my_vocab.txt"
-    plot_save_path = "/Users/aniruddhr/Documents/cs229/project/aclImdb/loss.png"
+
+    vocab_path = "/home/aniruddh_ramrakhyani/my_proj/cs229/aclImdb/my_vocab.txt"
+    #vocab_path = "/Users/aniruddhr/Documents/cs229/project/aclImdb/my_vocab.txt"
+
+    
+    #plot_save_path = "/Users/aniruddhr/Documents/cs229/project/aclImdb/loss.png"
+    plot_save_path = "/home/aniruddh_ramrakhyani/my_proj/cs229/aclImdb/loss.png"
+
     create_vocab = False
     vocab = {}
     
